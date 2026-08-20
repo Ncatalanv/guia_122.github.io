@@ -1,5 +1,14 @@
 html{
-    background-color: red;
+    background-color: rgb(6, 65, 241);
+    footer {
+        background-color: #000000;
+        color: rgb(247, 243, 243);
+        text-align: center;
+        padding: 10px;
+    }
+    href {
+        color: #00ffaa;
+    }
 }  
     /* Aplica estas propiedades a todos los elementos h2 dentro del html */
 h2 {

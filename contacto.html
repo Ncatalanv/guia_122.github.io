@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contacto | Lo quieres, te lo vendo</title>
+        <link href="./assets/css/style.css" type="text/css" rel="stylesheet"/>
+    </head> 
+    
+    <body>
+        <!-- Conservo el header del index para navegar entre las páginas -->
+        <header id="inicio">
+            <h1>Lo quieres, te lo vendo</h1>
+            <nav>
+                <a href="index.html">Inicio</a> |
+                <a href="index.html#nosotros">Nosotros</a> |
+                <a href="index.html#catalogo">Catálogo</a> |
+                <a href="index.html#seguimiento">Mis pedidos</a> |
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </header>
+
+        <!-- main del formulario de contacto -->
+        <main>
+            <section id="formulario-contacto">
+                <h2>Envíanos un mensaje</h2>
+                <p>Completa tus datos y nos pondremos en contacto contigo a la brevedad.</p>
+                
+                <!-- estructura del formulario de contacto -->
+                <form action="#" method="POST">
+                    
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br><br>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    
+                    <!-- br -> salo de línea -->
+
+                    <label for="mensaje">Tu mensaje para consultas:</label>
+                    <textarea id="mensaje" name="mensaje" rows="10" required></textarea>
+                    <br><br>
+
+                    <button type="submit">Enviar mensaje</button>
+
+                </form>
+            </section>
+        </main>
+
+        <!-- footer dle index -->
+        <footer>
+            <p>Frontend Lovers - 2026</p>
+        </footer>
+    </body>
+</html>
